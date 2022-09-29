@@ -245,6 +245,7 @@
                     <navigationItem key="navigationItem" id="ylP-FE-TND"/>
                     <connections>
                         <outlet property="detaylarButton" destination="bAF-aK-Z37" id="x5N-hN-6NJ"/>
+                        <outlet property="goodMorningLabel" destination="O9f-Sm-ki4" id="02f-BG-WQI"/>
                         <outlet property="paraYukleButton" destination="ybf-Tn-txO" id="ulH-pK-ojl"/>
                         <outlet property="qrOkutButton" destination="oW3-TD-Wif" id="oOW-Aq-uGO"/>
                     </connections>
@@ -326,7 +327,7 @@
             <color red="0.1970866024" green="0.44886904950000001" blue="0.3097842932" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="thirdColor">
-            <color red="0.1763489842" green="0.16882431510000001" blue="0.156860888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.17599999904632568" green="0.16899999976158142" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="yaziRenk1">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

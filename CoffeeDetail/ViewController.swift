@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
  
+    @IBOutlet weak var goodMorningLabel: UILabel!
     @IBOutlet weak var paraYukleButton: UIButton!
     @IBOutlet weak var qrOkutButton: UIButton!
     
@@ -18,12 +19,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        goodMorningLabel.font = UIFont(name: "AbyssinicaSIL-Regular", size: 30)
         
         paraYukleButton.layer.cornerRadius = 17
         qrOkutButton.layer.cornerRadius = 17
         detaylarButton.layer.cornerRadius = 17
         detaylarButton.layer.borderWidth = 1
         detaylarButton.layer.borderColor = UIColor.white.cgColor
+        
+        
     }
 }
 
